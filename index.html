@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        
+            <div class="flex-container">
+                <div class="left-column">
+                    <h1 class="left-header">Learn to code by <br> watching others</h1>
+                        <p class="left-para">See how experienced developers solve problems in real-time. 
+                        <br>Watching scripted tutorials is great, but understanding 
+                        <br>how developers think is invaluable.
+                        </p>
+                </div>
+                <div class="grid-column">
+
+                    <div class="sub-plan">
+                        <h4 class="sub-days">Try it free 7 days </h4>
+                        <p class="sub-fee">&nbspthen $20/mo. thereafter</p>
+                    </div>
+
+                    <div class="right-column">
+            <form id="form">
+                        <div class="first-name">
+                            <!-- <label for="">First Name</label> -->
+                            <input type="text" id="fname" placeholder="First Name">
+                            <span class="error" id="errorMessage1">Please enter your first name</span>
+                        </div>
+
+                        <div class="last-name">
+                            <!-- <label for="">Last Name</label> -->
+                            <input type="text" id="lname" placeholder="Last Name" >
+                            <span class="error" id="errorMessage2">Please enter your last name</span>
+                        </div>
+
+                        <!-- assignment -->
+                        <div class="email">
+                            <!-- <label for="">Email</label> -->
+                            <input type="email" id="email1" placeholder="Email">
+                            <span class="error" id="errorMessage3">Please enter your email address</span>
+                        </div>
+
+                        <div class="password">
+                            <!-- <label for="">Password</label> -->
+                            <input type="password" id="password1" placeholder="Password">
+                            <span class="error" id="errorMessage4">Please enter your password</span>
+                        </div>
+                        <button class="claim" type="button" onclick="validateForm()">CLAIM YOUR FREE TRIAL</button>
+
+                        <p class="terms"> By clicking the button, you are agreeing to our <span class="red">Terms and Services</span></p>
+
+            </form>
+
+                        <div class="thankyou" id="thanks">
+                            <h2>Thank you for your interest</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+        <script src="script.js"></script>
+    </div>
+</body>
+</html>
